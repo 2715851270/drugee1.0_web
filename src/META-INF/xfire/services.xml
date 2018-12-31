@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+	<!-- 定义一个给集采平台使用的webservice接口 -->
+	<service>
+		<name>Message</name>
+		<serviceClass>ws.IMessage</serviceClass>
+		<implementationClass>ws.MessageImpl</implementationClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+	
+	<!-- 定义一个自己android调用的webservice接口 -->
+	<service>
+		<name>phone</name>
+		<serviceClass>com.ws.app.IPhone</serviceClass>
+		<implementationClass>com.ws.app.PhoneImpl</implementationClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+</beans>

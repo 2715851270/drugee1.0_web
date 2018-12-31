@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Context path="/" debug="0" reloadable="true">
+      <Resource name="jdbc/yq" auth="Container"
+      type="javax.sql.DataSource"  
+      driverClassName="com.mysql.jdbc.Driver"  
+      url="jdbc:mysql://127.0.0.1:3306/drugee1.0?useUnicode=true&amp;characterEncoding=UTF-8"  
+      username="root"  
+      password="root"  
+      maxActive="50"  
+      maxIdle="10" 
+      maxWait="10000" />  
+      
+</Context>

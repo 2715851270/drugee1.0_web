@@ -1,0 +1,102 @@
+BODY {
+	FONT: 14px/2em Tahoma,Verdana,Arial,Î¢ÈíÑÅºÚ; COLOR: #fff
+}
+.col900 {
+	MARGIN: auto; WIDTH: 900px
+}
+header {
+	OVERFLOW: hidden; POSITION: relative; HEIGHT: 62px
+}
+.logo A {
+	BACKGROUND: url(../files/down_sp.png) no-repeat
+}
+.phone {
+	BACKGROUND: url(../files/down_sp.png) no-repeat
+}
+.down-pc {
+	BACKGROUND: url(../files/down_sp.png) no-repeat
+}
+.mobdown {
+	BACKGROUND: url(../files/down_sp.png) no-repeat
+}
+.mobdown1 {
+	BACKGROUND: url(../files/down_sp1.png) no-repeat
+}
+.phonelogo {
+	BACKGROUND: url(../files/down_sp.png) no-repeat
+}
+header .logo {
+	LEFT: 10px; WIDTH: 156px; POSITION: absolute; TOP: 12px; HEIGHT: 31px
+}
+header .logo A {
+	BACKGROUND-POSITION: left top; DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+header .phone {
+	BACKGROUND-POSITION: -234px 9px; PADDING-LEFT: 20px; FONT-SIZE: 14px; RIGHT: 0px; COLOR: #ea5404; POSITION: absolute; TOP: 25px
+}
+.bluebg {
+	BACKGROUND: #508fb6
+}
+.mainimg {
+	BACKGROUND: url(../files/main1.png) no-repeat; POSITION: relative; HEIGHT: 326px
+}
+.mainimg .imoimg {
+	Z-INDEX: 2; BACKGROUND: url(../files/imo.png) no-repeat; LEFT: 10px; WIDTH: 683px; POSITION: absolute; TOP: 42px; HEIGHT: 587px
+}
+.mainimg .down-info {
+	Z-INDEX: 10; RIGHT: 0px; WIDTH: 247px; COLOR: #fff; POSITION: absolute; TOP: 50px
+}
+.mainimg .down-info .top {
+	FONT-SIZE: 16px; PADDING-BOTTOM: 18px; WORD-BREAK: keep-all
+}
+.mainimg .down-info .bottom {
+	PADDING-TOP: 18px
+}
+.mainimg .down-pc {
+	BACKGROUND-POSITION: 0px -120px; DISPLAY: block; WIDTH: 247px; HEIGHT: 65px
+}
+.down-mobile {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #a9c8dc; PADDING-BOTTOM: 50px; PADDING-TOP: 55px; HEIGHT: 240px
+}
+.down-mobile .mobile-ver LI {
+	BACKGROUND: url(../files/box.png) no-repeat 32px 41px; FLOAT: left; WIDTH: 50%; POSITION: relative; HEIGHT: 240px
+}
+.down-mobile .mobile-ver .phone {
+	Z-INDEX: 20; BACKGROUND: url(../files/phone.png) no-repeat; WIDTH: 130px; POSITION: absolute; HEIGHT: 246px
+}
+.down-mobile .mobile-ver .iphone {
+	BACKGROUND-POSITION: left top
+}
+.down-mobile .mobile-ver .android {
+	BACKGROUND-POSITION: -130px top
+}
+.down-mobile .mobile-ver .pshadow {
+	Z-INDEX: 10; BACKGROUND: url(../files/phoneshadow.png) no-repeat; WIDTH: 277px; POSITION: absolute; TOP: 3px; HEIGHT: 275px
+}
+.down-mobile .mobile-ver .phonelogo {
+	PADDING-LEFT: 40px; FONT-SIZE: 18px; LEFT: 150px; COLOR: #9ca3ad; LINE-HEIGHT: 40px; POSITION: absolute; TOP: 70px; HEIGHT: 40px
+}
+.down-mobile .mobile-ver .mobdown {
+	BACKGROUND-POSITION: 0px -80px; DISPLAY: block; Z-INDEX: 30; LEFT: 160px; WIDTH: 127px; POSITION: absolute; TOP: 140px; HEIGHT: 34px
+}
+.down-mobile .mobile-ver .mobdown1 {
+	BACKGROUND-POSITION: 0px -80px; DISPLAY: block; Z-INDEX: 30; LEFT: 160px; WIDTH: 127px; POSITION: absolute; TOP: 140px; HEIGHT: 34px
+}
+.down-mobile .mobile-ver .scancode {
+	RIGHT: 40px; WIDTH: 100px; POSITION: absolute; TOP: 80px; HEIGHT: 100px
+}
+.down-mobile .mobile-ver .apple .phonelogo {
+	BACKGROUND-POSITION: -160px -80px
+}
+.down-mobile .mobile-ver .google .phonelogo {
+	BACKGROUND-POSITION: -160px -40px
+}
+.down-mobile .mobile-ver .apple .scancode {
+	BACKGROUND-POSITION: left top
+}
+.down-mobile .mobile-ver .google .scancode {
+	BACKGROUND-POSITION: right top
+}
+footer {
+	BACKGROUND: #a9c8dc; COLOR: #59788b; LINE-HEIGHT: 165px; HEIGHT: 165px; TEXT-ALIGN: center
+}
